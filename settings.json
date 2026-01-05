@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "Bash(npm:*)",
+      "Bash(pnpm:*)",
+      "Bash(bun:*)",
+      "Bash(npx:*)",
+      "Read",
+      "Write",
+      "Edit"
+    ]
+  },
+  "modelPreferences": {
+    "nextjs-developer": "sonnet",
+    "react-developer": "sonnet",
+    "fullstack-developer": "opus",
+    "api-architect": "opus",
+    "database-architect": "opus",
+    "ui-designer": "sonnet",
+    "testing-engineer": "sonnet",
+    "devops-engineer": "sonnet",
+    "code-reviewer": "opus",
+    "performance-optimizer": "sonnet",
+    "security-auditor": "opus",
+    "default": "sonnet",
+    "complex": "opus",
+    "quick": "haiku"
+  }
+}
