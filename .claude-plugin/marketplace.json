@@ -1,0 +1,49 @@
+{
+  "name": "adham-ai-builder",
+  "displayName": "Adham AI Builder",
+  "version": "1.0.0",
+  "description": "Complete Claude Code plugin for building micro SaaS AI products from idea to market",
+  "author": {
+    "name": "Adham Mahmoud",
+    "github": "AdhamMahmoud"
+  },
+  "repository": "https://github.com/AdhamMahmoud/adham-ai-builder-claude-code",
+  "license": "MIT",
+  "keywords": [
+    "nextjs",
+    "react",
+    "ai",
+    "micro-saas",
+    "langchain",
+    "rag",
+    "vercel-ai-sdk",
+    "drizzle",
+    "stripe",
+    "saas-builder",
+    "ai-agents"
+  ],
+  "categories": [
+    "AI",
+    "Development",
+    "SaaS"
+  ],
+  "features": [
+    "21 specialized AI agents",
+    "18 slash commands",
+    "17 knowledge skills",
+    "Smart routing with /adham command",
+    "Full-stack development support",
+    "AI/RAG pipeline builders",
+    "Business planning tools"
+  ],
+  "commands": {
+    "primary": "/adham",
+    "development": ["/build", "/component", "/api", "/db", "/test", "/deploy"],
+    "ai": ["/ai", "/rag", "/agent", "/chatbot", "/prompt"],
+    "business": ["/idea", "/plan", "/launch", "/monetize"],
+    "utility": ["/review", "/debug", "/docs"]
+  },
+  "compatibility": {
+    "claudeCode": ">=1.0.0"
+  }
+}
