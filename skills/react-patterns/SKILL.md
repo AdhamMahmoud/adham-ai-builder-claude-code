@@ -1,3 +1,8 @@
+---
+name: react-patterns
+description: React 19 patterns including hooks, Server Components, Client Components, Suspense, Error Boundaries, form actions, and useOptimistic. Use when building React components or implementing React 19 features.
+---
+
 # React 19 Patterns
 
 ## Core Hooks

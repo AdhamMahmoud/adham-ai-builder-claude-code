@@ -1,3 +1,8 @@
+---
+name: ai-sdks
+description: AI SDK comparison including Vercel AI SDK, OpenAI, Anthropic, Google AI, Groq, and others with streaming chat patterns and function calling. Use when integrating AI models into applications.
+---
+
 # AI SDKs
 
 | SDK | Provider | Models | Streaming | Best For | Docs |

@@ -1,3 +1,8 @@
+---
+name: ai-frameworks
+description: AI agent frameworks comparison including LangChain, LangGraph, CrewAI, AutoGen, Google ADK, and others. Use when choosing or implementing AI agent frameworks for multi-agent systems.
+---
+
 # AI Agent Frameworks
 
 | Framework | Type | Best For | Docs |

@@ -1,3 +1,8 @@
+---
+name: auth-patterns
+description: NextAuth v5 (Auth.js) authentication patterns including OAuth providers, credentials, middleware, server actions, RBAC, and JWT/database sessions. Use when implementing authentication or authorization.
+---
+
 # NextAuth v5 (Auth.js)
 
 ## Setup

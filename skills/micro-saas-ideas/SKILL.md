@@ -1,3 +1,8 @@
+---
+name: micro-saas-ideas
+description: Micro-SaaS ideas for 2025-2026 including profitable niches, validation checklists, MVP stack recommendations, and launch strategies. Use when validating SaaS ideas or planning micro-SaaS products.
+---
+
 # Micro-SaaS Ideas 2025-2026
 
 ## Top Niches by Market Size
@@ -153,22 +158,22 @@
 10. Scale or exit
 
 ## Red Flags
-- ❌ No clear target user
-- ❌ Free users won't convert
-- ❌ Competing with free tools
-- ❌ Requires enterprise sales
-- ❌ High churn risk
-- ❌ Can't reach users organically
-- ❌ Too broad (do everything)
+- No clear target user
+- Free users won't convert
+- Competing with free tools
+- Requires enterprise sales
+- High churn risk
+- Can't reach users organically
+- Too broad (do everything)
 
 ## Success Patterns
-- ✅ Vertical-specific tool
-- ✅ 10x better on one metric
-- ✅ Simple pricing
-- ✅ Self-serve onboarding
-- ✅ Quick "aha moment"
-- ✅ Solves urgent pain
-- ✅ Can build alone
+- Vertical-specific tool
+- 10x better on one metric
+- Simple pricing
+- Self-serve onboarding
+- Quick "aha moment"
+- Solves urgent pain
+- Can build alone
 
 ## Research Resources
 - Indie Hackers (ideas + revenue)

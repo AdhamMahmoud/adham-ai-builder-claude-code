@@ -1,3 +1,8 @@
+---
+name: chatbot-tools
+description: Chatbot and no-code AI tools including Flowise, Langflow, Botpress, and Rasa with setup guides and chatbot patterns. Use when building chatbots or implementing no-code AI solutions.
+---
+
 # Chatbot & No-Code AI Tools
 
 | Tool | Type | Best For | Pricing | Docs |

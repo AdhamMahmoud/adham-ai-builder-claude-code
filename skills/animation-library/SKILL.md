@@ -1,3 +1,8 @@
+---
+name: animation-library
+description: Animation libraries including Framer Motion, GSAP, and React Spring with patterns for basic animations, variants, gestures, scroll animations, and performance tips. Use when adding animations to React components.
+---
+
 # Animation Libraries
 
 ## Framer Motion (Recommended)

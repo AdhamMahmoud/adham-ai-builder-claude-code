@@ -1,3 +1,8 @@
+---
+name: nextjs-patterns
+description: Next.js 16 App Router patterns including Server Components, Client Components, caching strategies, route handlers, server actions, and Turbopack. Use when building Next.js applications or implementing App Router features.
+---
+
 # Next.js 16 Patterns
 
 ## App Router Structure

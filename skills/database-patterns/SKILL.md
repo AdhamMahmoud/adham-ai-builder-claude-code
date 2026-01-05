@@ -1,3 +1,8 @@
+---
+name: database-patterns
+description: Drizzle ORM with PostgreSQL patterns including schema definition, queries, joins, transactions, migrations, and relations. Use when working with databases, creating schemas, or writing database queries.
+---
+
 # Drizzle ORM + PostgreSQL
 
 ## Setup

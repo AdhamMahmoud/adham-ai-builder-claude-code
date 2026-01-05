@@ -1,3 +1,8 @@
+---
+name: mcp-tools
+description: MCP (Model Context Protocol) tools including official and community servers, configuration, and building custom MCP servers. Use when integrating MCP servers or building custom tool integrations for AI assistants.
+---
+
 # MCP (Model Context Protocol) Tools
 
 ## Official MCP Servers

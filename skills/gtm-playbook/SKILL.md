@@ -1,3 +1,8 @@
+---
+name: gtm-playbook
+description: Go-to-market playbook for SaaS products including pre-launch checklist, launch week strategy, marketing channels, SEO, content marketing, and growth metrics. Use when planning product launches or marketing strategies.
+---
+
 # Go-To-Market Playbook
 
 ## Pre-Launch (2-4 weeks)
@@ -94,65 +99,6 @@
 - "[Industry] Tools in 2025"
 - "Free [Tool] Alternatives"
 
-## Content Marketing
-
-### Blog Post Types
-- How-to guides
-- Comparison posts
-- Use case studies
-- Customer stories
-- Industry trends
-
-### Distribution
-- Share on Twitter (thread)
-- Post on LinkedIn
-- Submit to Reddit
-- Email newsletter
-- Repost on Medium/Dev.to
-
-### Frequency
-- 2-4 posts/month
-- Consistency > volume
-- Evergreen > trendy
-
-## Social Media Strategy
-
-### Twitter
-- Tweet daily
-- Reply to relevant tweets
-- Build in public
-- Share metrics
-- Engage with community
-
-### LinkedIn
-- Post 2-3x/week
-- Share wins/learnings
-- Comment on others' posts
-- DM warm leads
-- Thought leadership
-
-### Reddit
-- Join niche subreddits
-- Help people (not spam)
-- Share when relevant
-- Run AMA when traction
-
-## Email Marketing
-
-### Welcome Series
-1. Welcome + quick win
-2. Feature highlight
-3. Use case example
-4. Social proof
-5. Upgrade prompt (if freemium)
-
-### Regular Newsletter
-- Weekly/bi-weekly
-- Product updates
-- Tips & tricks
-- Customer stories
-- Industry news
-
 ## Metrics to Track
 
 ### Acquisition
@@ -233,56 +179,6 @@
 - Test paid ads
 - Expand features
 - Goal: $5k MRR
-
-## Referral Program
-
-### Structure
-- Give $10, Get $10
-- Or 20% off for both
-- Or 1 month free
-
-### Implementation
-- Unique referral link
-- Track in Stripe
-- Auto-apply credits
-- Leaderboard (gamification)
-
-## Customer Success
-
-### Onboarding
-- Welcome email
-- In-app tutorial
-- Quick win in 5 min
-- Personalized setup
-- Check-in after 3 days
-
-### Retention
-- Weekly tips email
-- Feature announcements
-- Customer spotlights
-- Respond <24h
-- Proactive support
-
-### Expansion
-- Upsell after 30 days
-- Usage-based prompts
-- Annual discount
-- Add-ons/integrations
-
-## Red Flags
-- ❌ No sign-ups after launch
-- ❌ High bounce rate (>70%)
-- ❌ Users don't return
-- ❌ No word-of-mouth
-- ❌ Can't explain value in 1 sentence
-
-## Success Signals
-- ✅ Organic sign-ups
-- ✅ Users invite others
-- ✅ Low churn (<5%)
-- ✅ Positive NPS
-- ✅ Feature requests
-- ✅ People pay without asking
 
 ## Resources
 - Indie Hackers (case studies)

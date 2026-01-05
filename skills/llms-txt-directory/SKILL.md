@@ -1,3 +1,8 @@
+---
+name: llms-txt-directory
+description: Directory of llms.txt URLs for popular frameworks and tools including AI SDKs, frontend frameworks, databases, and infrastructure. Use when looking up documentation URLs for LLM context or building RAG systems.
+---
+
 # llms.txt Directory
 
 ## Official llms.txt URLs
@@ -108,101 +113,6 @@ const docs = await response.text()
 // Add to RAG system
 ```
 
-## llms.txt Format
-
-### Standard Structure
-```
-# Product Name
-
-## Core Concepts
-- Concept 1: Brief explanation
-- Concept 2: Brief explanation
-
-## API Reference
-- Function/Component: Usage example
-
-## Examples
-```code
-// Example 1
-```
-
-## Common Patterns
-- Pattern 1: When to use
-```
-
-### Best Practices
-- Concise, LLM-optimized content
-- Code examples included
-- Up-to-date with latest version
-- Links to full docs
-
-## Creating Your Own llms.txt
-
-### Template
-```markdown
-# Your Product Name
-
-Version: 1.0.0
-Updated: 2024-01-01
-
-## Overview
-One-line description of what your product does.
-
-## Installation
-```bash
-npm install your-package
-```
-
-## Quick Start
-```typescript
-import { Thing } from 'your-package'
-
-const example = new Thing()
-```
-
-## Core Concepts
-- Concept 1: Description
-- Concept 2: Description
-
-## API Reference
-
-### Function/Class Name
-Description
-```typescript
-example.method(param: Type): ReturnType
-```
-
-## Common Patterns
-- Use Case 1: How to implement
-- Use Case 2: How to implement
-
-## Configuration
-```typescript
-const config = {
-  option1: 'value',
-  option2: true
-}
-```
-
-## Examples
-```typescript
-// Example 1: Basic usage
-// Example 2: Advanced usage
-```
-
-## Resources
-- Docs: https://your-docs.com
-- GitHub: https://github.com/your-repo
-- Discord: https://discord.gg/your-server
-```
-
-### Hosting
-```
-/public/llms.txt
-or
-/llms.txt at root
-```
-
 ## Why llms.txt?
 
 ### Benefits
@@ -218,24 +128,6 @@ or
 - RAG systems
 - Custom GPTs
 - AI agents
-
-## Verification
-
-### Check if llms.txt Exists
-```bash
-curl https://[domain]/llms.txt
-```
-
-### Validate Format
-- Plain text
-- UTF-8 encoding
-- Markdown formatting
-- < 1MB size (for performance)
-
-## Community Resources
-- llms-txt.org - Official spec
-- llms-full.txt - Extended format
-- awesome-llms-txt - Curated list
 
 ## Notes
 - Not all projects have llms.txt yet

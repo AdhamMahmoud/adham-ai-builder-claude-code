@@ -1,3 +1,8 @@
+---
+name: rag-tools
+description: RAG (Retrieval-Augmented Generation) tools including vector databases (Pinecone, Chroma, pgvector), embedding models, chunking strategies, and hybrid search. Use when building RAG pipelines or document search systems.
+---
+
 # RAG (Retrieval-Augmented Generation) Tools
 
 | Tool | Type | Best For | Hosted | Docs |

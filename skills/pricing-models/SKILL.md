@@ -1,3 +1,8 @@
+---
+name: pricing-models
+description: SaaS pricing models including tiered pricing, freemium, usage-based credits, per-seat pricing, and Stripe implementation patterns. Use when designing pricing strategies or implementing billing systems.
+---
+
 # SaaS Pricing Models
 
 ## Common Models
@@ -195,60 +200,6 @@ const subscription = await stripe.subscriptions.create({
 - Dedicated support
 - Custom contracts
 - On-prem option
-
-## A/B Testing Pricing
-
-### Test Variables
-- Price points ($29 vs $39)
-- Trial length (14 vs 30 days)
-- Anchor tier
-- Annual discount (15% vs 25%)
-- Feature gates
-
-### Tools
-- Stripe Billing
-- ProfitWell
-- ChartMogul
-- Baremetrics
-
-## Price Changes
-
-### Grandfathering
-```
-"Existing customers keep $29/mo
-New customers pay $39/mo"
-```
-- Rewards loyalty
-- Avoids churn
-- Grows MRR with new customers
-
-### Announcing Increases
-- Email 30 days notice
-- Explain value added
-- Offer annual lock-in
-- Expect 5-10% churn
-
-## Common Mistakes
-
-### Pricing Too Low
-- Hard to raise later
-- Attracts wrong customers
-- Undervalues product
-
-### Too Many Tiers
-- Confusing
-- Decision paralysis
-- Keep to 3-4 tiers
-
-### Wrong Value Metric
-- Discourages usage
-- Doesn't reflect value
-- Example: Charging for users when value is in projects
-
-### No Free Tier (PLG)
-- Harder to acquire users
-- No viral growth
-- Higher CAC
 
 ## Stripe Pricing Setup
 

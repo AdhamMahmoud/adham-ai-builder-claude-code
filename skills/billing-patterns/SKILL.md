@@ -1,3 +1,8 @@
+---
+name: billing-patterns
+description: Stripe billing patterns including checkout sessions, subscription management, credits systems, webhook handlers, and customer portal. Use when implementing payments, subscriptions, or billing features.
+---
+
 # Stripe Billing Patterns
 
 ## Setup

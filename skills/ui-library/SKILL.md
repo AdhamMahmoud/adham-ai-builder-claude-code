@@ -1,3 +1,8 @@
+---
+name: ui-library
+description: shadcn/ui, Radix UI primitives, and Tailwind CSS patterns including components list, installation, form patterns with Zod, and theme configuration. Use when building UI components or styling with Tailwind.
+---
+
 # shadcn/ui + Radix + Tailwind
 
 ## shadcn Components List

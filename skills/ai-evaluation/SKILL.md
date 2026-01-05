@@ -1,3 +1,8 @@
+---
+name: ai-evaluation
+description: AI evaluation and testing tools including DeepEval, RAGAS, Promptfoo, LangSmith, and Phoenix with metrics, testing patterns, and CI/CD integration. Use when testing LLM outputs or evaluating RAG systems.
+---
+
 # AI Evaluation & Testing Tools
 
 | Tool | Type | Best For | Docs |
@@ -123,50 +128,6 @@ tests:
 promptfoo eval
 promptfoo view # Web UI
 ```
-
-## LangSmith
-
-### Setup
-```bash
-pip install langsmith
-```
-
-### Trace
-```python
-from langsmith import traceable
-
-@traceable
-def my_function(input):
-    # Your LLM calls
-    return output
-```
-
-### Features
-- Trace chains
-- Debug prompts
-- Compare runs
-- Monitor production
-
-## Phoenix (Arize)
-
-### Setup
-```bash
-pip install arize-phoenix
-```
-
-### Launch
-```python
-import phoenix as px
-
-px.launch_app()
-# Visualize embeddings, traces
-```
-
-### Features
-- Embedding visualization
-- Drift detection
-- Model monitoring
-- Trace debugging
 
 ## Evaluation Patterns
 
