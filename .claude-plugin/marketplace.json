@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "adham-ai-builder",
-      "source": ".",
+      "source": "./",
       "description": "Complete Claude Code plugin for building micro SaaS AI products from idea to market",
       "version": "1.0.0",
       "author": {
