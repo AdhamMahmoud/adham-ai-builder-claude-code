@@ -1,6 +1,6 @@
 # Adham AI Builder
 
-Complete Claude Code plugin for building micro SaaS AI products from idea to market.
+Complete Claude Code plugin for building micro SaaS AI products from idea to market with spec-driven development.
 
 ## Usage
 
@@ -8,15 +8,119 @@ Complete Claude Code plugin for building micro SaaS AI products from idea to mar
 ```bash
 /adham [your request]
 ```
-Auto-detects intent and routes to the best agent.
+Auto-detects intent and routes to the best workflow. **For features and projects, automatically uses spec-kit flow** to save tokens and ensure quality.
 
 **Examples:**
 ```bash
-/adham build a user dashboard with charts
-/adham create a RAG pipeline for document search
-/adham validate my AI writing assistant idea
-/adham optimize this prompt for better results
-/adham review this PR for security issues
+/adham build a user dashboard with charts    # → spec-kit flow
+/adham create a RAG pipeline for document search  # → spec-kit flow
+/adham validate my AI writing assistant idea  # → idea-validator
+/adham optimize this prompt for better results  # → prompt-engineer
+/adham review this PR for security issues  # → code-reviewer
+```
+
+---
+
+## Spec-Driven Development (Spec-Kit)
+
+**The core workflow for building features.** Spec-kit front-loads decisions to save tokens and prevent rework.
+
+### Why Spec-Kit?
+
+| Problem | Spec-Kit Solution |
+|---------|-------------------|
+| Endless clarifications | Max 5 targeted questions upfront |
+| Scope creep | Constitution defines boundaries |
+| Rework from misunderstanding | Spec reviewed before implementation |
+| Lost context in long sessions | Artifacts persist in `.specify/` |
+| Unstructured implementation | Tasks with dependencies and phases |
+
+### The Flow
+
+```
+/adham build [feature]
+        ↓
+┌─────────────────────────────────────────────────────────────┐
+│  1. Constitution    → Project principles (once per project) │
+│  2. Specify         → Feature spec from description         │
+│  3. Clarify         → Resolve ambiguities (max 5 questions) │
+│  4. Plan            → Technical implementation plan         │
+│  5. Tasks           → Dependency-ordered task breakdown     │
+│  6. Analyze         → Consistency check (optional)          │
+│  7. Implement       → Phase-by-phase execution              │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### Spec-Kit Agents
+
+| Agent | Purpose | Output |
+|-------|---------|--------|
+| `speckit-constitution` | Project principles & constraints | `.specify/memory/constitution.md` |
+| `speckit-specify` | Create spec from description | `.specify/specs/[feature]/spec.md` |
+| `speckit-clarify` | Resolve ambiguities | Updated spec with answers |
+| `speckit-plan` | Technical implementation plan | `plan.md`, `data-model.md`, `contracts/` |
+| `speckit-tasks` | Task breakdown | `tasks.md` with phases |
+| `speckit-analyze` | Consistency analysis | Report with coverage metrics |
+| `speckit-checklist` | Requirement quality validation | `checklists/[domain].md` |
+| `speckit-implement` | Execute implementation | Working code! |
+
+### Directory Structure
+
+```
+.specify/
+├── memory/
+│   └── constitution.md     # Project principles
+├── specs/
+│   └── [feature-name]/
+│       ├── spec.md         # Feature specification
+│       ├── plan.md         # Implementation plan
+│       ├── tasks.md        # Task breakdown
+│       ├── research.md     # Technical decisions
+│       ├── data-model.md   # Entity definitions
+│       ├── contracts/      # API specifications
+│       └── checklists/     # Quality checklists
+└── templates/              # Reusable templates
+```
+
+### Example: Building User Auth
+
+```bash
+/adham build user authentication with Google OAuth
+
+# Spec-kit automatically:
+# 1. Creates spec with user stories (P1: login, P2: logout, P3: profile)
+# 2. Asks max 5 clarifying questions
+# 3. Generates technical plan with data model
+# 4. Creates 15-20 ordered tasks
+# 5. Implements phase by phase
+```
+
+**Generated spec.md:**
+```markdown
+## User Story 1 - Google OAuth Login (Priority: P1)
+
+User can sign in using their Google account.
+
+**Acceptance Scenarios**:
+1. Given user is logged out, When they click "Sign in with Google",
+   Then they are redirected to Google OAuth consent
+2. Given user completes OAuth, When redirected back,
+   Then they are logged in and see dashboard
+```
+
+**Generated tasks.md:**
+```markdown
+## Phase 1: Setup
+- [ ] T001 Install next-auth and Google provider
+
+## Phase 2: Foundational
+- [ ] T002 Create auth configuration in auth.ts
+- [ ] T003 [P] Add session provider to app layout
+
+## Phase 3: User Story 1 - Login (P1)
+- [ ] T004 [US1] Create users table with Drizzle
+- [ ] T005 [US1] Implement Google OAuth callback
+- [ ] T006 [US1] Add login button to header
 ```
 
 ---
@@ -328,60 +432,93 @@ Skills are automatically loaded by agents for context.
 
 ## Model Tiers
 
-| Tier | Model | Commands |
-|------|-------|----------|
-| **Opus** | Complex tasks | /build, /ai, /rag, /agent, /idea, /plan, /monetize |
+| Tier | Model | Commands/Agents |
+|------|-------|-----------------|
+| **Opus** | Complex tasks | /adham, spec-kit agents, /build, /ai, /rag, /agent, /idea, /plan, /monetize |
 | **Sonnet** | Standard tasks | /component, /api, /test, /review, /prompt, /chatbot |
 | **Haiku** | Quick tasks | Simple lookups, formatting |
 
 ---
 
-## Examples Workflow
+## Example Workflows
 
-### Build a Micro SaaS from Scratch
+### Build a Micro SaaS from Scratch (with Spec-Kit)
 
 ```bash
-# 1. Validate idea
+# 1. Validate idea first
 /idea AI-powered code review tool for small teams
 
-# 2. Plan MVP
-/plan MVP with GitHub integration and AI feedback
+# 2. Build with spec-kit (automatic flow)
+/adham build GitHub OAuth authentication
+# → Creates spec → Clarifies → Plans → Tasks → Implements
 
-# 3. Build core features
-/build GitHub OAuth authentication
-/build repository connection and webhook
-/ai code analysis with Claude API
-/component review dashboard with diff viewer
+/adham build repository connection with webhooks
+# → Spec-kit handles the full flow
 
-# 4. Add billing
+/adham create AI code analysis feature with Claude
+# → Spec-kit + ai-architect
+
+/adham build review dashboard with diff viewer
+# → Spec-kit + react-developer
+
+# 3. Add billing
 /monetize freemium with usage-based pricing
-/build Stripe subscription integration
+/adham build Stripe subscription integration
+# → Spec-kit handles billing feature
 
-# 5. Launch
+# 4. Launch
 /launch on Product Hunt and dev communities
 
-# 6. Iterate
-/debug users reporting slow reviews
-/review security of webhook handler
+# 5. Quick fixes (direct routing, no spec-kit)
+/adham fix the slow review loading
+/adham review security of webhook handler
+```
+
+### View Spec-Kit Artifacts
+
+```bash
+# After building features, check the specs
+cat .specify/specs/github-auth/spec.md
+cat .specify/specs/github-auth/tasks.md
+
+# See what's been built
+ls .specify/specs/
 ```
 
 ### Add AI Feature to Existing App
 
 ```bash
-# 1. Design AI system
-/ai architect document Q&A feature
+# 1. Build with spec-kit for full context
+/adham build document Q&A feature with RAG
+# → Creates comprehensive spec
+# → Plans RAG architecture
+# → Generates tasks for embeddings, vector DB, retrieval
 
-# 2. Build RAG pipeline
-/rag with Pinecone for user documents
-/db add documents and embeddings tables
+# 2. Spec-kit generates these artifacts:
+# .specify/specs/document-qa/
+# ├── spec.md         (user stories, requirements)
+# ├── plan.md         (RAG architecture decisions)
+# ├── data-model.md   (documents, embeddings tables)
+# ├── contracts/      (API endpoints)
+# └── tasks.md        (ordered implementation)
 
-# 3. Create chat interface
-/chatbot with streaming and history
+# 3. Quick additions (direct routing)
 /component chat UI with markdown support
-
-# 4. Test and optimize
 /prompt optimize for accuracy
 /test AI chat endpoints
+```
+
+### Manual Spec-Kit Flow (Advanced)
+
+```bash
+# Run each step manually for more control
+/adham use speckit-constitution  # Set up project principles
+/adham use speckit-specify build user profiles with avatars
+/adham use speckit-clarify       # Answer clarification questions
+/adham use speckit-plan          # Review technical plan
+/adham use speckit-tasks         # Check task breakdown
+/adham use speckit-analyze       # Verify consistency
+/adham use speckit-implement     # Execute implementation
 ```
 
 ---

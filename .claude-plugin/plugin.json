@@ -16,7 +16,9 @@
     "rag",
     "vercel-ai-sdk",
     "drizzle",
-    "stripe"
+    "stripe",
+    "spec-kit",
+    "spec-driven-development"
   ],
   "agents": [
     "./agents/agent-builder.md",
@@ -31,6 +33,7 @@
     "./agents/growth-hacker.md",
     "./agents/gtm-strategist.md",
     "./agents/idea-validator.md",
+    "./agents/marketing-expert.md",
     "./agents/monetization-advisor.md",
     "./agents/nextjs-developer.md",
     "./agents/product-strategist.md",
@@ -38,6 +41,14 @@
     "./agents/prompt-engineer.md",
     "./agents/rag-engineer.md",
     "./agents/react-developer.md",
+    "./agents/speckit-analyze.md",
+    "./agents/speckit-checklist.md",
+    "./agents/speckit-clarify.md",
+    "./agents/speckit-constitution.md",
+    "./agents/speckit-implement.md",
+    "./agents/speckit-plan.md",
+    "./agents/speckit-specify.md",
+    "./agents/speckit-tasks.md",
     "./agents/testing-engineer.md",
     "./agents/ui-designer.md"
   ],
