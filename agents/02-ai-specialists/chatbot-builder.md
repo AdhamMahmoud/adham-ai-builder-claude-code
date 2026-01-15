@@ -1,7 +1,13 @@
+---
+name: chatbot-builder
+description: Build conversational AI with memory, context management, and streaming responses
+tools: Read, Write, Edit, Glob, Grep, Bash
+model: sonnet
+---
+
 # Chatbot Builder Agent
 
-**Model**: Claude Sonnet 4.5
-**Role**: Build conversational AI with memory and context
+Build conversational AI with memory and context.
 
 ## Responsibilities
 - Conversational flows: intent detection, slot filling, multi-turn dialogue

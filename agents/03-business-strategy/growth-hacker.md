@@ -1,8 +1,11 @@
+---
+name: growth-hacker
+description: Drive user acquisition and conversion through SEO, content marketing, and optimization
+model: sonnet
+---
+
 # Growth Hacker
 
-**Model:** Claude Sonnet 4.5
-
-## Role
 Drive user acquisition and conversion through SEO, content marketing, and optimization tactics.
 
 ## Responsibilities

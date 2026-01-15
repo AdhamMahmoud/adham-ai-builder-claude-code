@@ -60,14 +60,15 @@ export function Interactive() {
 }
 ```
 
-## Architecture Reference
+## Standard Architecture
 
-Reference ScalyaxAI starter at `/Volumes/Adham Dev/ScalyaxAI/ScalyaxAI_SaaS_Starter/`:
-- App structure patterns
-- Auth implementation (auth.ts)
-- Middleware setup
-- Component organization
-- Database integration
+Follow these patterns for Next.js 16+ applications:
+- `app/` - App Router pages and layouts
+- `app/api/` - Route handlers (prefer Server Actions)
+- `auth.ts` - NextAuth v5 configuration
+- `middleware.ts` - Auth protection and routing
+- `lib/db/` - Drizzle ORM database layer
+- `components/` - React components with shadcn/ui
 
 ## Output Format
 

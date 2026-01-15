@@ -2,6 +2,24 @@
 
 Complete Claude Code plugin for building micro SaaS AI products from idea to market with spec-driven development.
 
+## Plugin Structure (v2.0)
+
+```
+agents/
+├── 01-core-development/     # 6 agents: Next.js, React, APIs, DB, UI
+├── 02-ai-specialists/       # 6 agents: AI architecture, RAG, agents, chatbots
+├── 03-business-strategy/    # 7 agents: GTM, validation, monetization
+├── 04-spec-driven/          # 8 agents: Spec-Kit workflow
+├── 05-quality-ops/          # 3 agents: Testing, review, deployment
+├── 06-meta-orchestration/   # 2 agents: Smart routing, workflow coordination
+└── INDEX.md                 # Full agent catalog
+
+skills/                      # 17 reference skills
+commands/                    # 19 quick-access commands
+```
+
+See [agents/INDEX.md](./agents/INDEX.md) for the full agent catalog.
+
 ## Usage
 
 ### Smart Router (Recommended)

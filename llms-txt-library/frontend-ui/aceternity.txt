@@ -1,0 +1,102 @@
+# Aceternity UI Documentation
+
+## Getting Started
+- [Install Next.js](https://ui.aceternity.com/components/install-nextjs): Comprehensive guide to set up your Next.js project with Aceternity UI, including project initialization, configuration, and best practices for integration.
+- [Install Tailwind CSS](https://ui.aceternity.com/components/install-tailwindcss): Detailed instructions for configuring Tailwind CSS in your project, including theme customization, plugin setup, and optimization tips.
+- [Add Utilities](https://ui.aceternity.com/components/add-utilities): Learn how to extend Tailwind with custom utilities, create new variants, and implement custom animations and effects.
+
+## Navigation Components
+- [Resizable Navbar](https://ui.aceternity.com/components/resizable-navbar): A fully responsive navigation bar that can be dynamically resized, featuring smooth transitions, mobile responsiveness, and customizable breakpoints.
+- [Floating Navbar](https://ui.aceternity.com/components/floating-navbar): A modern navigation bar that floats above content with smooth animations, transparency effects, and responsive behavior for all screen sizes.
+- [Navbar Menu](https://ui.aceternity.com/components/navbar-menu): A highly customizable navigation menu with support for dropdowns, mega menus, and mobile-friendly hamburger menu with smooth animations.
+- [Sidebar](https://ui.aceternity.com/components/sidebar): A responsive sidebar component with collapsible sections, nested navigation, and smooth transitions between states.
+- [Floating Dock](https://ui.aceternity.com/components/floating-dock): A macOS-style floating dock navigation with icon magnification, tooltips, and smooth hover animations.
+
+## Hero Sections
+- [Hero Sections](https://ui.aceternity.com/components/hero-sections): A collection of modern hero section designs featuring gradient backgrounds, animated text, and interactive elements to create engaging landing pages.
+- [Hero Parallax](https://ui.aceternity.com/components/hero-parallax): Advanced parallax scrolling hero sections with layered animations, depth effects, and smooth scroll-based interactions.
+- [Hero Highlight](https://ui.aceternity.com/components/hero-highlight): Hero sections with dynamic text highlighting, animated backgrounds, and interactive elements that respond to user actions.
+
+## Card Components
+- [Cards](https://ui.aceternity.com/components/cards): Versatile card components with customizable layouts, hover effects, and responsive designs for displaying content in an organized manner.
+- [3D Card Effect](https://ui.aceternity.com/components/3d-card-effect): Interactive cards with realistic 3D transformations, perspective shifts, and depth effects that respond to mouse movement.
+- [Card Hover Effect](https://ui.aceternity.com/components/card-hover-effect): Cards with sophisticated hover animations including scale, rotation, and shadow effects for enhanced user interaction.
+- [Card Stack](https://ui.aceternity.com/components/card-stack): A stack of cards with smooth transitions, depth perception, and interactive reordering capabilities.
+- [Card Spotlight](https://ui.aceternity.com/components/card-spotlight): Cards with dynamic spotlight effects that follow cursor movement, creating an engaging interactive experience.
+- [Expandable Card](https://ui.aceternity.com/components/expandable-card): Cards that smoothly expand to reveal additional content with customizable animations and transition effects.
+- [Glare Card](https://ui.aceternity.com/components/glare-card): Cards with realistic glare effects that respond to light source position, creating a premium glass-like appearance.
+- [Wobble Card](https://ui.aceternity.com/components/wobble-card): Playful cards with physics-based wobble animations that respond to user interaction with realistic motion.
+- [Text Reveal Card](https://ui.aceternity.com/components/text-reveal-card): Cards with sophisticated text reveal animations, including typewriter effects and smooth transitions.
+- [Evervault Card](https://ui.aceternity.com/components/evervault-card): Security-focused cards with encryption effects, blur animations, and secure data display patterns.
+
+## Background Effects
+- [Aurora Background](https://ui.aceternity.com/components/aurora-background): Dynamic aurora-like background effects with flowing gradients, color transitions, and smooth animations.
+- [Background Beams](https://ui.aceternity.com/components/background-beams): Animated beam patterns that create depth and movement in the background with customizable colors and patterns.
+- [Background Boxes](https://ui.aceternity.com/components/background-boxes): Animated box patterns with parallax effects, creating a dynamic grid-based background.
+- [Background Gradient](https://ui.aceternity.com/components/background-gradient): Customizable gradient backgrounds with smooth color transitions and blend modes.
+- [Background Gradient Animation](https://ui.aceternity.com/components/background-gradient-animation): Animated gradient backgrounds with flowing colors, pattern overlays, and interactive elements.
+- [Background Lines](https://ui.aceternity.com/components/background-lines): Dynamic line patterns that create movement and depth in the background with customizable styles.
+- [Grid and Dot Backgrounds](https://ui.aceternity.com/components/grid-and-dot-backgrounds): Responsive grid and dot patterns with parallax effects and customizable spacing.
+- [Wavy Background](https://ui.aceternity.com/components/wavy-background): Animated wavy patterns with customizable amplitude, frequency, and color transitions.
+
+## Animation Effects
+- [3D Marquee](https://ui.aceternity.com/components/3d-marquee): A 3D scrolling marquee effect with depth perception, smooth transitions, and customizable content.
+- [3D Pin](https://ui.aceternity.com/components/3d-pin): Interactive 3D pin elements with realistic physics and smooth animations.
+- [Animated Modal](https://ui.aceternity.com/components/animated-modal): Modal dialogs with smooth entrance/exit animations, backdrop effects, and customizable transitions.
+- [Animated Tooltip](https://ui.aceternity.com/components/animated-tooltip): Tooltips with smooth animations, directional positioning, and customizable styles.
+- [Canvas Reveal Effect](https://ui.aceternity.com/components/canvas-reveal-effect): Advanced canvas-based reveal animations with particle effects and smooth transitions.
+- [Direction Aware Hover](https://ui.aceternity.com/components/direction-aware-hover): Elements that respond to hover direction with appropriate animations and effects.
+- [Following Pointer](https://ui.aceternity.com/components/following-pointer): Elements that smoothly follow the cursor with customizable lag and easing effects.
+- [Glowing Effect](https://ui.aceternity.com/components/glowing-effect): Elements with dynamic glow effects that respond to user interaction and state changes.
+- [Glowing Stars Effect](https://ui.aceternity.com/components/glowing-stars-effect): Animated star patterns with twinkling effects and customizable density.
+- [Moving Border](https://ui.aceternity.com/components/moving-border): Animated borders that flow around elements with customizable patterns and speeds.
+- [Shooting Stars and Stars Background](https://ui.aceternity.com/components/shooting-stars-and-stars-background): Dynamic star field with shooting star animations and customizable density.
+- [Sparkles](https://ui.aceternity.com/components/sparkles): Particle-based sparkle effects with customizable colors, sizes, and animation patterns.
+- [Vortex](https://ui.aceternity.com/components/vortex): Interactive vortex animations with customizable rotation speed and particle effects.
+
+## Text Effects
+- [Colourful Text](https://ui.aceternity.com/components/colourful-text): Text with dynamic color transitions, gradient effects, and animated color changes.
+- [Flip Words](https://ui.aceternity.com/components/flip-words): Text elements with smooth flipping animations and customizable timing.
+- [Text Generate Effect](https://ui.aceternity.com/components/text-generate-effect): Text that appears with typing animations and customizable timing and effects.
+- [Text Hover Effect](https://ui.aceternity.com/components/text-hover-effect): Interactive text with sophisticated hover animations and transitions.
+- [Typewriter Effect](https://ui.aceternity.com/components/typewriter-effect): Classic typewriter-style text animation with customizable speed and cursor effects.
+
+## UI Components
+- [Apple Cards Carousel](https://ui.aceternity.com/components/apple-cards-carousel): A premium card carousel inspired by Apple's design language with smooth transitions and 3D effects.
+- [Bento Grid](https://ui.aceternity.com/components/bento-grid): A modern grid layout system inspired by bento boxes with responsive cells and smooth animations.
+- [Carousel](https://ui.aceternity.com/components/carousel): A versatile carousel component with touch support, autoplay, and customizable transitions.
+- [Code Block](https://ui.aceternity.com/components/code-block): Syntax-highlighted code blocks with line numbers, copy functionality, and theme support.
+- [File Upload](https://ui.aceternity.com/components/file-upload): A modern file upload component with drag-and-drop support, progress indicators, and preview capabilities.
+- [Images Slider](https://ui.aceternity.com/components/images-slider): An image slider with smooth transitions, touch support, and customizable controls.
+- [Layout Grid](https://ui.aceternity.com/components/layout-grid): A flexible grid system with responsive breakpoints and customizable spacing.
+- [Link Preview](https://ui.aceternity.com/components/link-preview): Interactive link previews with hover effects and metadata display.
+- [Macbook Scroll](https://ui.aceternity.com/components/macbook-scroll): A Macbook-style scroll effect with device frame and smooth content transitions.
+- [Multi Step Loader](https://ui.aceternity.com/components/multi-step-loader): A sophisticated loading indicator with multiple steps and progress tracking.
+- [Parallax Scroll](https://ui.aceternity.com/components/parallax-scroll): Advanced parallax scrolling effects with customizable speed and depth.
+- [Placeholders and Vanish Input](https://ui.aceternity.com/components/placeholders-and-vanish-input): Input fields with animated placeholders and smooth transitions.
+- [Signup Form](https://ui.aceternity.com/components/signup-form): A modern signup form with validation, animations, and responsive design.
+- [Tabs](https://ui.aceternity.com/components/tabs): A tabbed interface with smooth transitions and customizable styles.
+- [Timeline](https://ui.aceternity.com/components/timeline): A responsive timeline component with animated entries and customizable markers.
+- [World Map](https://ui.aceternity.com/components/world-map): An interactive world map with hover effects and customizable markers.
+
+## Special Effects
+- [Github Globe](https://ui.aceternity.com/components/github-globe): A GitHub-style interactive globe with particle effects and smooth rotations.
+- [Google Gemini Effect](https://ui.aceternity.com/components/google-gemini-effect): A sophisticated effect inspired by Google's Gemini with smooth transitions and animations.
+- [Lamp Effect](https://ui.aceternity.com/components/lamp-effect): A realistic lamp lighting effect with dynamic shadows and ambient light.
+- [Lens](https://ui.aceternity.com/components/lens): A lens distortion effect with customizable focal points and distortion patterns.
+- [Meteors](https://ui.aceternity.com/components/meteors): Animated meteor shower effects with customizable trajectories and particle effects.
+- [Spotlight](https://ui.aceternity.com/components/spotlight): A dynamic spotlight effect that follows cursor movement with smooth transitions.
+- [SVG Mask Effect](https://ui.aceternity.com/components/svg-mask-effect): Advanced SVG masking effects with smooth transitions and customizable patterns.
+- [Tracing Beam](https://ui.aceternity.com/components/tracing-beam): A beam tracing animation with customizable paths and particle effects.
+
+## Interactive Components
+- [Animated Testimonials](https://ui.aceternity.com/components/animated-testimonials): Testimonial cards with smooth animations and interactive elements.
+- [Compare](https://ui.aceternity.com/components/compare): A comparison component with interactive sliders and smooth transitions.
+- [Focus Cards](https://ui.aceternity.com/components/focus-cards): Cards that respond to focus with smooth animations and transitions.
+- [Hover Border Gradient](https://ui.aceternity.com/components/hover-border-gradient): Elements with gradient borders that animate on hover.
+- [Infinite Moving Cards](https://ui.aceternity.com/components/infinite-moving-cards): A continuous scrolling card layout with smooth transitions.
+- [Sticky Scroll Reveal](https://ui.aceternity.com/components/sticky-scroll-reveal): Elements that reveal content based on scroll position with smooth animations.
+
+## Development Tools
+- [CLI](https://ui.aceternity.com/components/cli): Command line tools for project setup, component generation, and development workflow.
+- [TailwindCSS Buttons](https://ui.aceternity.com/components/tailwindcss-buttons): A collection of pre-styled Tailwind CSS buttons with various states and animations.

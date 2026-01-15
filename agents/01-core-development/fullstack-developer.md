@@ -76,14 +76,14 @@ export function UserList({ users }) {
 }
 ```
 
-## Reference Architecture
+## Standard Architecture
 
-ScalyaxAI starter at `/Volumes/Adham Dev/ScalyaxAI/ScalyaxAI_SaaS_Starter/`:
-- Database: `lib/db/schema/*`
-- Auth: `auth.ts`
-- Middleware: `middleware.ts`
-- Components: `components/*`
-- Hooks: `hooks/*`
+Follow this structure for full-stack Next.js applications:
+- Database: `lib/db/schema/*` - Drizzle schema definitions
+- Auth: `auth.ts` - NextAuth v5 configuration
+- Middleware: `middleware.ts` - Auth and routing middleware
+- Components: `components/*` - React components with shadcn/ui
+- Hooks: `hooks/*` - Custom React hooks
 
 ## Output Format
 

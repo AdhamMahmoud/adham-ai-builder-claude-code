@@ -106,9 +106,13 @@ import { Input } from '@/components/ui/input'
 </div>
 ```
 
-## Reference
+## Component Organization
 
-ScalyaxAI components at `/Volumes/Adham Dev/ScalyaxAI/ScalyaxAI_SaaS_Starter/components/`
+Standard structure for UI components:
+- `components/ui/*` - shadcn/ui base components
+- `components/forms/*` - Form-specific components
+- `components/layout/*` - Layout components (header, footer, sidebar)
+- `components/shared/*` - Reusable composed components
 
 ## Output Format
 
